@@ -1,0 +1,19 @@
+.Tic {
+  border-radius: 12px;
+  background-color: gray;
+  display: flex;
+  color: white;
+  width: 12vh;
+  height: 12vh;
+  justify-content: center;
+  align-content: center;
+  transition: 0.5s all;
+}
+
+.Tic > * {
+  margin: auto;
+}
+
+.Tic:hover {
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.6);
+}
